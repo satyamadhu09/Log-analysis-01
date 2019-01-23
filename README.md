@@ -1,14 +1,14 @@
-				****** LOG ANALYSIS *****
+				`	****** LOG ANALYSIS *****
 Project Overview:
 In this project, the main operations to be done is to fetch results from a real-time database that gives information about a data. You have to connect to the database and get the information from the server and form into a report.
 
 Process to be followed:
 
 Softwares needed:
----- Python
----- Vagrant
----- VirtualBox
----- psycopg2
+1. Python
+2. Vagrant
+3. VirtualBox
+4. psycopg2
 
 Setting up the Project:
 
