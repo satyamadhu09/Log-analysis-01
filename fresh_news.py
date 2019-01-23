@@ -1,4 +1,5 @@
-#!usr/bin/env/python
+#!/usr/bin/env python
+
 import psycopg2
 
 query_1 = (" create view view_1 as select articles.title,count(*) as views "
