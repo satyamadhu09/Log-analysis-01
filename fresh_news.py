@@ -1,3 +1,4 @@
+#!usr/bin/env/python
 import psycopg2
 
 query_1 = (" create view view_1 as select articles.title,count(*) as views "
@@ -56,8 +57,8 @@ def print_resulterr(result):
     for i in result:
         print(str(i[0])+" - "+str(i[1])+"%")
 
-if __name__ == "__main__":
 
+if __name__ == "__main__":
     print("\n The 3 most popular articles of all time are:\n")
     result_set(query_1, view_1)
     print("\n The most popular article authors of all time are:\n")
