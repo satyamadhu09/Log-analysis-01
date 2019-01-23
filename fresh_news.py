@@ -26,9 +26,12 @@ view_3 = ("select * from view_3 where per_err > 1.0")
 
 
 def connection(dbname="news"):
-    db = psycopg2.connect("dbname={}".format(dbname))
-    cur = db.cursor()
-    return db, cur
+    try:
+        db = psycopg2.connect("dbname={}".format(dbname))
+        cur = db.cursor()
+        return db, cur
+    except Exception:
+        print("Can't connect to the database")
 
 
 def result_set(query, view):
