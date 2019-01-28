@@ -1,4 +1,4 @@
-						 LOG ANALYSIS
+						 
 Project Overview:
 In this project, the main operations to be done is to fetch results from a real-time database that gives information about a data. You have to connect to the database and get the information from the server and form into a report.
 
